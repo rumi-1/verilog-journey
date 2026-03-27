@@ -14,5 +14,5 @@ Models CMOS transmission gate behavior at a logic level.
 ![Waveform](waveform.png)
 ## Files
 - `or_gate.v`    | module
-- `and_gate_tb.v` | testbench
+- `or_gate_tb.v` | testbench
 - `or_gate.vcd`  | .vcd waveform
