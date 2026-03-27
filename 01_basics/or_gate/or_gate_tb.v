@@ -1,10 +1,11 @@
 `timescale 1ns / 1ps
 
-module and_gate_tb;
+module or_gate_tb;
     reg a, b;
     wire y;
 
-    and_gate uut (
+    // uut = Unit Under Test
+    or_gate uut (
         .a(a),
         .b(b),
         .y(y)
@@ -12,8 +13,8 @@ module and_gate_tb;
 
     // generate waveform file
     initial begin
-        $dumpfile("and_gate.vcd");
-        $dumpvars(0, and_gate_tb);
+        $dumpfile("or_gate.vcd");
+        $dumpvars(0, or_gate_tb);
     end
 
     // terminal monitor
@@ -25,5 +26,4 @@ module and_gate_tb;
         a = 1; b = 1; #10;
         $finish;
     end
-
 endmodule
