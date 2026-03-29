@@ -1,4 +1,4 @@
-# AND Gate
+# NAND Gate
 ## Concept
 A 2-input NAND Gate outputs HIGH only when both of the inputs are *not* HIGH.
 Effectively HIGH when at least one input is 0. 
