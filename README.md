@@ -13,8 +13,8 @@ employment and internships.
 ## Roadmap
 | Phase | Topic | Status |
 |-------|-------|--------|
-| 01 | Logic gates & basic modules | 🟡 In progress |
-| 02 | Combinational circuits (adders, muxes, decoders) | ⬜ Upcoming |
+| 01 | Logic gates & basic modules | ✅ Complete |
+| 02 | Combinational circuits (adders, muxes, decoders) | 🟡 In Progress |
 | 03 | Sequential logic (flip-flops, registers, counters) | ⬜ Upcoming |
 | 04 | Finite state machines | ⬜ Upcoming |
 | 05 | Memory (RAM, ROM) | ⬜ Upcoming |
